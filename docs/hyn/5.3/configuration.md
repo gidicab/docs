@@ -37,6 +37,6 @@ In general you can expect the following settings for each webserver;
 - ports; which ports we should use, this is required to configure the vhost files properly.
 - generator; the class handling the generation of vhost files.
 - disk; the disk to write the vhost files to, you can have it point to any configured disk in your `config/filesystems.php`.
-- paths; specific locations we need to know about to in order to mutate the webserver behavior.
+- paths; specific locations we need to know about in order to mutate the webserver behavior.
 
 [requirements]: requirements#elevated-database-user
